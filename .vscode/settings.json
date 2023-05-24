@@ -1,6 +1,8 @@
 {
     "python.analysis.typeCheckingMode": "basic",
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "stack": "cpp",
+        "xutility": "cpp"
     }
 }
