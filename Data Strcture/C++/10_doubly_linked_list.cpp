@@ -39,7 +39,7 @@ void displayList(Node* head) {
         cout << "List is empty." << endl;
         return;
     }
-    cout << "EMP Number\tName\t\tSalary" << endl;
+    cout << "EMP Number\tName\t\t\tSalary" << endl;
     Node* temp = head;
     while (temp != nullptr) {
         cout << temp->empNumber << "\t\t" << temp->name << "\t\t" << temp->salary << endl;
