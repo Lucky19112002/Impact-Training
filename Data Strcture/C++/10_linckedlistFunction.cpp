@@ -102,7 +102,6 @@ Node* fun2(Node* headA, Node* headB) {
             mergedList = createNode(headA->data);
             tail = mergedList;
         } else {
-            // Check if the data already exists in the merged list
             bool exists = false;
             Node* temp = mergedList;
             while (temp != nullptr) {
@@ -112,8 +111,6 @@ Node* fun2(Node* headA, Node* headB) {
                 }
                 temp = temp->next;
             }
-
-            // If the data doesn't exist, append it to the merged list
             if (!exists) {
                 tail->next = createNode(headA->data);
                 tail = tail->next;
@@ -123,7 +120,6 @@ Node* fun2(Node* headA, Node* headB) {
     }
 
     while (headB != nullptr) {
-        // Check if the data already exists in the merged list
         bool exists = false;
         Node* temp = mergedList;
         while (temp != nullptr) {
@@ -133,8 +129,6 @@ Node* fun2(Node* headA, Node* headB) {
             }
             temp = temp->next;
         }
-
-        // If the data doesn't exist, append it to the merged list
         if (!exists) {
             if (mergedList == nullptr) {
                 mergedList = createNode(headB->data);
