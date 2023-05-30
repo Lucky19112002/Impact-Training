@@ -1,0 +1,35 @@
+1 2 3 5 6 7 8 9 17 20 23 
+
+topic wise:-
+
+sorting-bubble,selection,insertion,*merge,quick
+searching -linear,binary
+
+greedy algo:
+huffman 
+prims 
+krushkal djkstra job sequence problem
+
+dynamic pro.:
+longest common 
+floyd algo
+longest plindromic subsequence
+coin changing
+
+backtracking:
+n-queen
+hamilton cycle
+rat in the maze
+gold mine
+
+devide and conquer:
+*merge sort
+*streassen matrix multi
+
+graph:
+dfs
+bfs
+shortest path
+topological sort
+
+recursion
