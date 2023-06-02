@@ -25,9 +25,7 @@ void findPair(int nums[], int n, int target)
     }
  
     // we reach here if the pair is not found
-    cout << "Pair not found";
 }
- 
 int main()
 {
     int nums[] = { 8, 7, 2, 5, 3, 1 };
