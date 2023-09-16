@@ -26,14 +26,21 @@ int binarySearch(int arr[],int n, int key){
    {
         int mid = (s+e)/2;
         if(arr[mid] == key){
-            return mid;}
+            return mid;
+        }
         else if (arr[mid]>key){
-            e=mid-1;}
+            s=mid-1;
+        }
         else{
-            e=mid+1;}
-   }
+            e=mid+1;
+        }
+    }
    return -1;
+   //Time Complexcty: O(log n)
+   //                      2
 }
+
+
 
 int main(){
     int n,key;
@@ -47,7 +54,7 @@ int main(){
     cin>>key;
     //linearSearch(arr,n,key);
     cout<<endl;
-    binarySearch(arr,n,key);
+    cout<<binarySearch(arr,n,key);
 
     return 0;
     
